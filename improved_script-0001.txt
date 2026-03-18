@@ -1,4 +1,3 @@
-shared['Auth_Key'] = ''
 shared.azov = {
     ["globals"] = {
         ["show hotkeys"] = true,
