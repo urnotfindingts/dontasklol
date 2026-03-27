@@ -107,9 +107,9 @@ shared.azov = {
 
     ["movement"] = {
         ["enabled"] = true,
-        ["speed"] = { ["value"] = 300, ["toggle"] = 'Z', ["enabled"] = true, ["glide"] = false, ["mode"] = 'toggle' }, -- toggle / hold / always
-        ["jump"]  = { ["value"] = 60, ["key"] = 'X', ["mode"] = 'hold' }, -- toggle / hold / always
-        ["no tripping"] = false,
+        ["speed"] = { ["value"] = 300, ["toggle"] = 'Z', ["enabled"] = true, ["glide"] = true, ["mode"] = 'always' }, -- toggle / hold / always
+        ["jump"]  = { ["value"] = 60, ["key"] = 'X', ["mode"] = 'always' }, -- toggle / hold / always
+        ["no tripping"] = true,
     },
 
     ["conditions"] = {
@@ -138,7 +138,7 @@ shared.azov = {
     },
 
     ["bullet_wallbang"] = {
-        ["enabled"] = true,
+        ["enabled"] = false,
     },
 
     ["dmg_override"] = {
