@@ -178,7 +178,7 @@ shared.azov = {
         },
 
         ["bullet tp"] = {
-            ["enabled"]   = true,
+            ["enabled"]   = false,
             ["type"]      = 'always',    -- toggle / hold / always
             ["selection"] = 'automatic', -- automatic / target
         },
