@@ -118,9 +118,9 @@ shared.azov = {
             ["enabled"] = true,
         },
         ["bullet tp"] = {
-            ["enabled"]   = false,
+            ["enabled"]   = true,
             ["toggle"]    = 'J',
-            ["type"]      = 'toggle',    -- toggle / hold / always
+            ["type"]      = 'always',    -- toggle / hold / always
             ["selection"] = 'automatic', -- automatic / target
             ["target toggle"] = 'I',
         },
