@@ -55,7 +55,7 @@ shared.azov = {
         ["hitchance"] = 100,
         ["ystabilizer"] = 0,
 
-        ["point"] = 'head', -- closest point, closest part, part name, part table
+        ["point"] = 'Head', -- closest point, closest part, part name, part table
         ["closest point"] = { ["mode"] = 'advanced', ["scale"] = 0.15 },
         ["hitpart override"] = { ["enabled"] = false, ["toggle"] = 'F', 'head' },
 
