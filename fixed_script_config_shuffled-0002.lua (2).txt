@@ -14,13 +14,13 @@ shared.azov = {
         },
         ["target tracer"] = {
             ["enabled"]           = true,
-            ["thickness"]         = 1,
+            ["thickness"]         = 0.5,
             ["effective color"]   = Color3.fromRGB(255, 50, 50),   -- on-target / ShouldShoot passing
             ["ineffective color"] = Color3.fromRGB(255, 255, 255), -- tracking but not shooting
         },
         ["exploit tracer"] = {
             ["enabled"]   = true,
-            ["thickness"] = 1,
+            ["thickness"] = 0.5,
             ["color"]     = Color3.fromRGB(255, 165, 0),
         },
     },
