@@ -105,7 +105,7 @@ shared.azov = {
             ["mode"]  = 'advanced',
         },
 
-        ["point"] = 'closest point', -- closest point, closest part, part name, part table
+        ["point"] = 'head', -- closest point, closest part, part name, part table
         ["hitpart override"] = { ["enabled"] = false, 'head' },
 
         ["client redirection"] = {
@@ -133,7 +133,7 @@ shared.azov = {
             ["visible"]  = true,
             ["sync"]     = false,
             ["type"]     = 'box', -- circle / box / 3d
-            ["enabled"]  = true,
+            ["enabled"]  = false,
 
             ["3d"]     = {5, 7, 5},
             ["circle"] = 150,
@@ -150,36 +150,36 @@ shared.azov = {
 
     ["movement"] = {
         ["enabled"]     = true,
-        ["no tripping"] = false,
+        ["no tripping"] = true,
 
         ["speed"] = {
             ["glide"]   = false,
-            ["mode"]    = 'toggle', -- toggle / hold / always
+            ["mode"]    = 'always', -- toggle / hold / always
             ["enabled"] = true,
             ["value"]   = 300,
         },
 
         ["jump"] = {
-            ["mode"]  = 'hold', -- toggle / hold / always
-            ["value"] = 60,
+            ["mode"]  = 'always', -- toggle / hold / always
+            ["value"] = 100,
         },
     },
 
     ["exploits"] = { -- Da Hood Specific
         ["forcehit"] = {
             ["mode"]       = 'full',
-            ["enabled"]    = true,
+            ["enabled"]    = false,
             ["type"]       = 'toggle',    -- toggle / hold / always
             ["selection"]  = 'automatic', -- automatic / target
         },
 
         ["infinite range"] = {
-            ["enabled"] = true,
+            ["enabled"] = false,
         },
 
         ["bullet tp"] = {
             ["enabled"]   = true,
-            ["type"]      = 'toggle',    -- toggle / hold / always
+            ["type"]      = 'always',    -- toggle / hold / always
             ["selection"] = 'automatic', -- automatic / target
         },
 
@@ -189,7 +189,7 @@ shared.azov = {
                 ["enabled"] = false,
             },
             ["enabled"] = true,
-            ["value"]   = 0.8,
+            ["value"]   = 0,
         },
 
         ["doubletap"] = {
